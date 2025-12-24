@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#userInput {
+  height: 35px;
+  width: 20vw;
+  padding: 0 5px;
+}
+
+#addBtn {
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+ul {
+  margin-top: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+ul li {
+  padding: 8px;
+  border: 1px solid gray;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#delete {
+  cursor: pointer;
+}
